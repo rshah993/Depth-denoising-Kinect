@@ -1,0 +1,19 @@
+figure
+a=plot(1:size(art(200,:),2),im2double(art_smooth_final(200,:))-im2double(art(200,:))); axis tight;
+imwrite(a,'art_line.png');
+figure
+b=plot(1:size(books(200,:),2),im2double(books_smooth_final(200,:))-im2double(books(200,:))); axis tight;
+imwrite(b,'books_line.png');
+figure
+c=plot(1:size(dolls(200,:),2),im2double(dolls_smooth_final(200,:))-im2double(dolls(200,:))); axis tight;
+imwrite(c,'dolls_line.png');
+figure
+d=plot(1:size(laundry(200,:),2),im2double(laundry_smooth_final(200,:))-im2double(laundry(200,:))); axis tight;
+imwrite(d,'laundry_line.png');
+figure
+e=plot(1:size(moebius(200,:),2),im2double(moebius_smooth_final(200,:))-im2double(moebius(200,:))); axis tight;
+imwrite(e,'moebius_line.png');
+figure
+f=plot(1:size(reindeer(200,:),2),im2double(reindeer_smooth_final(200,:))-im2double(reindeer(200,:))); axis tight;
+imwrite(f,'reindeer
+_line.png');
